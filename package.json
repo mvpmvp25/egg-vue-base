@@ -23,7 +23,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg001",
+    "start": "NODE_ENV=production EGG_SERVER_ENV=prod egg-scripts start",
     "stop": "egg-scripts stop --title=egg-server-egg001",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
